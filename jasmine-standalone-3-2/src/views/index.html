@@ -1,0 +1,14 @@
+<html>
+  <head>
+    <script src="../models/office.js"></script>
+    <script src="../lib/officeFunctions.js"></script>
+    <script src="../models/meetingRoom.js"></script>
+    <!-- <link rel="stylesheet" href="../public/stylesheets/bowling.css"> -->
+  </head>
+  <body>
+    <h2>Welcome to your office</h2>
+    <script>showMeetingRooms();</script>
+    <input type="text" id="room-name" placeholder="Room Name">
+    <button onclick="addMeetingRoom(document.getElementById('room-name').value);">Add Meeting Room</button>
+  </body>
+</html>
